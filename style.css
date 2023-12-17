@@ -211,12 +211,3 @@ h3.price::after {
 
 
 }
-
-@media (max-width: 400px) {
-
-    .about_img1 {
-        width: 270px;
-        height: 400px;
-    }
-
-}
