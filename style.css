@@ -21,7 +21,7 @@ h1 {
 
 h2 {
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size:32px;
+    font-size:30px;
     padding-bottom: 30px;
 }
 
@@ -29,7 +29,7 @@ h3 {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-weight: 200;
     padding-bottom: 30px;
-font-size: 28px;
+font-size: 26px;
 }
 
 .header {
@@ -38,7 +38,7 @@ font-size: 28px;
     flex-direction: column;
 
     text-align: center;
-    min-height: 850px;
+    min-height: 890px;
     border-bottom: 1px solid white;
     margin: 0 30px;
 
