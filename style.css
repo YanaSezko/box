@@ -90,7 +90,7 @@ h3.price::after {
 }
 
 .about_img2 {
-    background-image: url('./images/boxcontain.png');
+    background-image: url('./images/box.png');
     background-size: cover;
     width: 500px;
     height: 500px;
