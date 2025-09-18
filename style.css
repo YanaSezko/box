@@ -6,7 +6,8 @@
 body {
     height: 100vh;
     width: 100%;
-    background: rgb(71, 0, 0);
+    background: rgb(164, 119, 100);
+
     color: white;
     overflow-x: hidden;
 
@@ -33,6 +34,10 @@ h3 {
 }
 
 .header {
+    background-image: url('./images/list.png');
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-size: 20%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -54,8 +59,7 @@ h3.price::after {
     position: absolute;
     top: 0;
     left: -110px;
-    rotate: 45deg;
-    opacity: 0.5;
+    rotate: 45deg;   
 }
 
 .price span {
@@ -167,10 +171,10 @@ h3.price::after {
 
 @media (max-width: 1410px) {
     .header {
-        background-image: url('./images/forest_tree.png');
+        background-image: url('./images/list.png');
         background-repeat: repeat-x;
         background-position: bottom;
-        background-size: 25%;
+        background-size: 30%;
     }
 
     .about,
@@ -192,13 +196,14 @@ h3.price::after {
     .soap_forest_img1,
     .soap_forest_img2,
     .about_img1 {
+        margin: 30px;
         width: 300px;
         height: 300px;
 
     }
     .about_img2{
-        width: 600px;
-        height: 400px;
+        width: 500px;
+        height: 600px;
     }
 
     .about_discr,
