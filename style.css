@@ -5,7 +5,7 @@
 
 body {
     height: 100vh;
-    width: 100vw;
+    width: auto;
     background: rgb(112, 171, 205);
     background-image: url('./images/fon.jpg');
     background-repeat: repeat-x + repeat-y;
@@ -103,6 +103,7 @@ h3.price::after {
     width: 500px;
     height: 500px;
     position: relative;
+    margin: 30px;
 }
 
 .about_discr,
@@ -204,16 +205,14 @@ h3.price::after {
     .soap_red_img2,
     .soap_forest_img1,
     .soap_forest_img2,
-    .about_img1 {
+    .about_img1,
+    .about_img2 {
         margin: 30px;
         width: 300px;
         height: 300px;
 
     }
-    .about_img2{
-        width: 500px;
-        height: 600px;
-    }
+   
 
     .about_discr,
     .candle_discr,
