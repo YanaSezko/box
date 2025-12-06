@@ -6,8 +6,10 @@
 body {
     height: 100vh;
     width: 100%;
-    background: rgb(94, 183, 234);
+    background: rgb(112, 171, 205);
     background-image: url('./images/fon.jpg');
+    background-repeat: repeat-x + repeat-y;
+    background-size:contain;
     color: white;
     overflow-x: hidden;
 
@@ -22,15 +24,16 @@ h1 {
 
 h2 {
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size: 30px;
+    font-size: 36px;
     padding-bottom: 30px;
+    font-weight: 600;
 }
 
 h3 {
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-weight: 200;
+    font-weight: 500;
     padding-bottom: 30px;
-    font-size: 26 px;
+    font-size: 26px;
 }
 
 .header {
@@ -73,8 +76,7 @@ h3.price::after {
 .candle,
 .soap_red,
 .soap_forest {
-
-    min-height: 600px;
+    min-height: 500px;
     display: flex;
     text-align: center;
     align-items: center;
@@ -83,8 +85,9 @@ h3.price::after {
 }
 
 .about_img1 {
-    background-image: url('./images/box3.png');
-    background-size: cover;
+    background-image: url('./images/8.png ');
+    background-repeat: no-repeat;
+    background-size: contain;
     background-position: center;
     width: 400px;
     height: 500px;
@@ -95,7 +98,8 @@ h3.price::after {
 
 .about_img2 {
     background-image: url('./images/box.png');
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
     width: 500px;
     height: 500px;
     position: relative;
@@ -111,7 +115,8 @@ h3.price::after {
 
 .candle_img1 {
     background-image: url('./images/candle.png');
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
     background-position: center;
     width: 500px;
     height: 500px;
@@ -119,7 +124,8 @@ h3.price::after {
 
 .candle_img2 {
     background-image: url('./images/candle1.png');
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
     background-position: center;
     width: 500px;
     height: 500px;
@@ -127,7 +133,8 @@ h3.price::after {
 
 .soap_red_img1 {
     background-image: url('./images/red.png');
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
     background-position: center;
     width: 500px;
     height: 500px;
@@ -135,7 +142,8 @@ h3.price::after {
 
 .soap_red_img2 {
     background-image: url('./images/redmany.png');
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
     background-position: center;
     width: 500px;
     height: 500px;
@@ -143,7 +151,8 @@ h3.price::after {
 
 .soap_forest_img1 {
     background-image: url('./images/forest.png');
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
     background-position: center;
     width: 500px;
     height: 500px;
@@ -151,7 +160,8 @@ h3.price::after {
 
 .soap_forest_img2 {
     background-image: url('./images/forestmany.png');
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
     background-position: center;
     width: 500px;
     height: 450px;
@@ -160,7 +170,6 @@ h3.price::after {
 .social {
     display: flex;
     list-style: none;
-
 }
 
 .social a {
