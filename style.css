@@ -7,7 +7,7 @@ body {
     height: 100vh;
     width: auto;
     background: rgb(69, 117, 145);
-    background-image: url('./images/fon.jpg');
+    background-image: radial-gradient(rgba(145, 210, 183, 0.705),rgba(255, 255, 255, 0.225), rgba(62, 118, 152, 0.751));
     
     background-repeat: repeat-x + repeat-y;
     background-size:contain;
